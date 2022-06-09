@@ -48,6 +48,20 @@ public class LinkedListWithCornerCases {
         }
     }
 
+    void reverse(){
+        Node prev  = null;
+        Node cur = head;
+        Node next = cur.next;
+
+        while(cur!=null){
+            next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
+        head = prev;
+    }
+
     public static void main(String[] args) {
 
     }
