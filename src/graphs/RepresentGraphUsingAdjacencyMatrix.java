@@ -30,7 +30,7 @@ import java.util.Scanner;
  * 4 3
  */
 
-public class RepresentGraphUsingAdjacencyList {
+public class RepresentGraphUsingAdjacencyMatrix {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
